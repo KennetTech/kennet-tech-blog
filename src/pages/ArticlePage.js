@@ -25,7 +25,7 @@ const ArticlePage = () => {
             setArticleInfo(newArticleInfo);
         }
 
-        if (isLoading) {
+        if (!isLoading) {
             loadArticleInfo();
         }
         
